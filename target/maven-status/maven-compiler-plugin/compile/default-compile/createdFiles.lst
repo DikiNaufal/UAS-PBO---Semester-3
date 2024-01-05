@@ -1,0 +1,16 @@
+FoodShareMaven.class
+controller\OrganisasiController.class
+controller\DonaturController.class
+dao\DonasiDAO.class
+model\Campaign.class
+dao\BaseDAO.class
+dao\CampaignDAO.class
+controller\DonasiController.class
+model\Organisasi.class
+dao\OrganisasiDAO.class
+model\Donasi.class
+controller\CampaignController.class
+model\Donatur.class
+dao\DonaturDAO.class
+model\HalamanController.class
+model\User.class
