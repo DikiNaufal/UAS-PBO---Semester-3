@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="model.HalamanController">
+   <children>
+      <AnchorPane layoutX="180.0" layoutY="-1.0" prefHeight="63.0" prefWidth="1000.0" styleClass="white-background" stylesheets="@halaman.css" AnchorPane.rightAnchor="2.0">
+         <children>
+            <Button layoutX="934.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" styleClass="exit" stylesheets="@donasi.css" AnchorPane.rightAnchor="21.0" />
+            <Pane layoutX="-69.0" prefHeight="48.0" prefWidth="448.0" />
+            <Label alignment="CENTER" layoutX="399.0" layoutY="10.0" prefHeight="53.0" prefWidth="249.0" stylesheets="@design.css" text="FoodShare" textFill="#662d60">
+               <font>
+                  <Font name="Berlin Sans FB" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Group layoutX="115.0" layoutY="77.0">
+         <children>
+            <Pane prefHeight="182.0" prefWidth="363.0">
+               <children>
+                  <ImageView fitHeight="182.0" fitWidth="363.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Gambar%201.jpeg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="430.0" prefHeight="182.0" prefWidth="322.0">
+               <children>
+                  <ImageView fitHeight="182.0" fitWidth="348.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Gambar%202.jpeg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="128.0" layoutY="258.0" prefHeight="237.0" prefWidth="236.0">
+               <children>
+                  <Pane layoutX="-14.0" layoutY="26.0" prefHeight="211.0" prefWidth="236.0" styleClass="white-background" stylesheets="@halaman.css">
+                     <children>
+                        <Text fill="#662d60" layoutX="83.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donatur">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="101.0" fitWidth="104.0" layoutX="68.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@gambar_donatur.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="btn_Donatur" layoutX="52.0" layoutY="161.0" mnemonicParsing="false" onAction="#donaturDitekan" prefHeight="40.0" prefWidth="132.0" styleClass="button-design" stylesheets="@design.css" text="Login" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="421.0" layoutY="284.0" prefHeight="211.0" prefWidth="260.0" styleClass="white-background" stylesheets="@halaman.css">
+               <children>
+                  <Text fill="#662d60" layoutX="88.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Organisasi">
+                     <font>
+                        <Font name="Berlin Sans FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="109.0" fitWidth="132.0" layoutX="76.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@gambar_organisasi.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btn_organisasi" layoutX="65.0" layoutY="157.0" mnemonicParsing="false" onAction="#organisasiDitekan" prefHeight="40.0" prefWidth="132.0" styleClass="button-design" stylesheets="@design.css" text="Login" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Text fill="#662d60" layoutX="82.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Bergabunglah dengan kami dalam misi menyediakan kehangatan dan harapan melalui donasi makanan." wrappingWidth="633.56640625">
+               <font>
+                  <Font name="Freestyle Script" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="#662d60" layoutX="128.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setiap sumbanganmu membuat perbedaan besar dalam hidup mereka yang membutuhkan.&quot;">
+               <font>
+                  <Font name="Freestyle Script" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Group>
+   </children>
+   <stylesheets>
+      <URL value="@h" />
+      <URL value="@halaman.css" />
+   </stylesheets>
+</AnchorPane>
